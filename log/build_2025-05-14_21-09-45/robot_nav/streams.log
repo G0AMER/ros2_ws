@@ -1,0 +1,20 @@
+[0.928s] Invoking command in '/home/g-amer/ros2_ws/build/robot_nav': PYTHONPATH=/home/g-amer/ros2_ws/build/robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/g-amer/ros2_ws/build/robot_nav/build --no-deps symlink_data
+[1.085s] /home/g-amer/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.085s]   warnings.warn(msg)
+[1.300s] running develop
+[1.584s] running egg_info
+[1.601s] writing robot_nav.egg-info/PKG-INFO
+[1.602s] writing dependency_links to robot_nav.egg-info/dependency_links.txt
+[1.602s] writing entry points to robot_nav.egg-info/entry_points.txt
+[1.602s] writing requirements to robot_nav.egg-info/requires.txt
+[1.602s] writing top-level names to robot_nav.egg-info/top_level.txt
+[1.685s] ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+[1.816s] reading manifest file 'robot_nav.egg-info/SOURCES.txt'
+[1.817s] writing manifest file 'robot_nav.egg-info/SOURCES.txt'
+[1.836s] running build_ext
+[1.836s] Creating /home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot-nav.egg-link (link to .)
+[1.836s] Installing search_controller script to /home/g-amer/ros2_ws/install/robot_nav/lib/robot_nav
+[1.837s] 
+[1.837s] Installed /home/g-amer/ros2_ws/build/robot_nav
+[1.837s] running symlink_data
+[1.862s] Invoked command in '/home/g-amer/ros2_ws/build/robot_nav' returned '0': PYTHONPATH=/home/g-amer/ros2_ws/build/robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/g-amer/ros2_ws/build/robot_nav/build --no-deps symlink_data

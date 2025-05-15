@@ -1,0 +1,2 @@
+[console_scripts]
+search_controller = robot_nav.search_controller:main

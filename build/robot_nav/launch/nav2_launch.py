@@ -1,0 +1,1 @@
+/home/g-amer/ros2_ws/src/robot_nav/launch/nav2_launch.py

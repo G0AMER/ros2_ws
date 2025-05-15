@@ -1,0 +1,32 @@
+[10.618s] Invoking command in '/home/g-amer/ros2_ws/build/robot_nav': PYTHONPATH=/home/g-amer/ros2_ws/build/robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/g-amer/ros2_ws/build/robot_nav/build --no-deps symlink_data
+[10.767s] /home/g-amer/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[10.767s]   warnings.warn(msg)
+[10.971s] running develop
+[11.305s] running egg_info
+[11.321s] creating robot_nav.egg-info
+[11.321s] writing robot_nav.egg-info/PKG-INFO
+[11.322s] writing dependency_links to robot_nav.egg-info/dependency_links.txt
+[11.322s] writing requirements to robot_nav.egg-info/requires.txt
+[11.322s] writing top-level names to robot_nav.egg-info/top_level.txt
+[11.322s] writing manifest file 'robot_nav.egg-info/SOURCES.txt'
+[11.531s] ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+[12.039s] reading manifest file 'robot_nav.egg-info/SOURCES.txt'
+[12.039s] writing manifest file 'robot_nav.egg-info/SOURCES.txt'
+[12.057s] running build_ext
+[12.057s] Creating /home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot-nav.egg-link (link to .)
+[12.057s] 
+[12.058s] Installed /home/g-amer/ros2_ws/build/robot_nav
+[12.058s] running symlink_data
+[12.058s] creating /home/g-amer/ros2_ws/install/robot_nav/share/ament_index/resource_index/packages
+[12.058s] symbolically linking /home/g-amer/ros2_ws/build/robot_nav/resource/robot_nav -> /home/g-amer/ros2_ws/install/robot_nav/share/ament_index/resource_index/packages
+[12.058s] symbolically linking /home/g-amer/ros2_ws/build/robot_nav/package.xml -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav
+[12.058s] creating /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/config
+[12.058s] symbolically linking /home/g-amer/ros2_ws/build/robot_nav/config/nav2_params.yaml -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/config
+[12.058s] creating /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/maps
+[12.058s] symbolically linking /home/g-amer/ros2_ws/build/robot_nav/maps/my_map.yaml -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/maps
+[12.059s] symbolically linking /home/g-amer/ros2_ws/build/robot_nav/maps/my_map.pgm -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/maps
+[12.059s] creating /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/launch
+[12.059s] symbolically linking /home/g-amer/ros2_ws/build/robot_nav/launch/nav2_launch.py -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/launch
+[12.059s] creating /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/rviz_config
+[12.059s] symbolically linking /home/g-amer/ros2_ws/build/robot_nav/rviz_config/turtlebot_clone.rviz -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/rviz_config
+[12.089s] Invoked command in '/home/g-amer/ros2_ws/build/robot_nav' returned '0': PYTHONPATH=/home/g-amer/ros2_ws/build/robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/g-amer/ros2_ws/build/robot_nav/build --no-deps symlink_data

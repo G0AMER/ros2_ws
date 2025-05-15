@@ -1,0 +1,16 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Displays:
+    - Class: rviz_default_plugins/Map
+      Name: Map
+      Topic: /map
+      Enabled: false
+    - Class: rviz_default_plugins/RobotModel
+      Name: RobotModel
+      Description: "The Robot Model displays the robot or other object described by a URDF file."
+      Enabled: true
+      Value: true
+Global Options:
+  Fixed Frame: base_footprint

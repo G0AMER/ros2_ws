@@ -1,0 +1,40 @@
+/home/g-amer/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+Removing /home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot-nav.egg-link (link to .)
+/home/g-amer/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../build/robot_nav/robot_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_nav/robot_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_nav/robot_nav.egg-info/entry_points.txt
+writing requirements to ../../build/robot_nav/robot_nav.egg-info/requires.txt
+writing top-level names to ../../build/robot_nav/robot_nav.egg-info/top_level.txt
+ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+reading manifest file '../../build/robot_nav/robot_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_nav/robot_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_nav/__init__.py -> /home/g-amer/ros2_ws/build/robot_nav/build/lib/robot_nav
+copying robot_nav/search_controller.py -> /home/g-amer/ros2_ws/build/robot_nav/build/lib/robot_nav
+running install
+running install_lib
+creating /home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav
+copying /home/g-amer/ros2_ws/build/robot_nav/build/lib/robot_nav/__init__.py -> /home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav
+copying /home/g-amer/ros2_ws/build/robot_nav/build/lib/robot_nav/search_controller.py -> /home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav
+byte-compiling /home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav/search_controller.py to search_controller.cpython-310.pyc
+running install_data
+copying resource/robot_nav -> /home/g-amer/ros2_ws/install/robot_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav
+copying config/nav2_params.yaml -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/config
+copying maps/my_map.yaml -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/maps
+copying maps/my_map.pgm -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/maps
+copying launch/nav2_launch.py -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/launch
+copying launch/search_controller.launch.py -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/launch
+copying rviz_config/turtlebot_clone.rviz -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/rviz_config
+running install_egg_info
+Copying ../../build/robot_nav/robot_nav.egg-info to /home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav-0.0.0-py3.10.egg-info
+running install_scripts
+Installing search_controller script to /home/g-amer/ros2_ws/install/robot_nav/lib/robot_nav
+writing list of installed files to '/home/g-amer/ros2_ws/build/robot_nav/install.log'

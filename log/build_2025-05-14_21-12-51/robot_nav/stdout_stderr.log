@@ -1,0 +1,26 @@
+/home/g-amer/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+running egg_info
+writing robot_nav.egg-info/PKG-INFO
+writing dependency_links to robot_nav.egg-info/dependency_links.txt
+writing entry points to robot_nav.egg-info/entry_points.txt
+writing requirements to robot_nav.egg-info/requires.txt
+writing top-level names to robot_nav.egg-info/top_level.txt
+ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+reading manifest file 'robot_nav.egg-info/SOURCES.txt'
+writing manifest file 'robot_nav.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot-nav.egg-link (link to .)
+Installing search_controller script to /home/g-amer/ros2_ws/install/robot_nav/lib/robot_nav
+
+Installed /home/g-amer/ros2_ws/build/robot_nav
+running symlink_data
+symbolically linking /home/g-amer/ros2_ws/build/robot_nav/resource/robot_nav -> /home/g-amer/ros2_ws/install/robot_nav/share/ament_index/resource_index/packages
+symbolically linking /home/g-amer/ros2_ws/build/robot_nav/package.xml -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav
+symbolically linking /home/g-amer/ros2_ws/build/robot_nav/config/nav2_params.yaml -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/config
+symbolically linking /home/g-amer/ros2_ws/build/robot_nav/maps/my_map.yaml -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/maps
+symbolically linking /home/g-amer/ros2_ws/build/robot_nav/maps/my_map.pgm -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/maps
+symbolically linking /home/g-amer/ros2_ws/build/robot_nav/launch/nav2_launch.py -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/launch
+symbolically linking /home/g-amer/ros2_ws/build/robot_nav/launch/search_controller.launch.py -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/launch
+symbolically linking /home/g-amer/ros2_ws/build/robot_nav/rviz_config/turtlebot_clone.rviz -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/rviz_config

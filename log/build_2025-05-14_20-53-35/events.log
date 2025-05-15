@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000559] (robot_nav) JobQueued: {'identifier': 'robot_nav', 'dependencies': OrderedDict()}
+[0.000618] (robot_nav) JobStarted: {'identifier': 'robot_nav'}
+[0.099806] (-) TimerEvent: {}
+[0.200496] (-) TimerEvent: {}
+[0.300855] (-) TimerEvent: {}
+[0.401131] (-) TimerEvent: {}
+[0.501438] (-) TimerEvent: {}
+[0.601868] (-) TimerEvent: {}
+[0.702143] (-) TimerEvent: {}
+[0.802375] (-) TimerEvent: {}
+[0.902597] (-) TimerEvent: {}
+[1.002818] (-) TimerEvent: {}
+[1.103097] (-) TimerEvent: {}
+[1.203500] (-) TimerEvent: {}
+[1.304817] (-) TimerEvent: {}
+[1.405131] (-) TimerEvent: {}
+[1.505538] (-) TimerEvent: {}
+[1.605982] (-) TimerEvent: {}
+[1.706360] (-) TimerEvent: {}
+[1.806677] (-) TimerEvent: {}
+[1.907105] (-) TimerEvent: {}
+[2.007515] (-) TimerEvent: {}
+[2.107894] (-) TimerEvent: {}
+[2.208142] (-) TimerEvent: {}
+[2.308459] (-) TimerEvent: {}
+[2.408740] (-) TimerEvent: {}
+[2.509032] (-) TimerEvent: {}
+[2.609424] (-) TimerEvent: {}
+[2.709858] (-) TimerEvent: {}
+[2.810108] (-) TimerEvent: {}
+[2.910393] (-) TimerEvent: {}
+[3.010905] (-) TimerEvent: {}
+[3.111165] (-) TimerEvent: {}
+[3.211467] (-) TimerEvent: {}
+[3.311708] (-) TimerEvent: {}
+[3.411958] (-) TimerEvent: {}
+[3.512224] (-) TimerEvent: {}
+[3.612471] (-) TimerEvent: {}
+[3.712751] (-) TimerEvent: {}
+[3.813049] (-) TimerEvent: {}
+[3.913356] (-) TimerEvent: {}
+[4.013781] (-) TimerEvent: {}
+[4.114133] (-) TimerEvent: {}
+[4.214494] (-) TimerEvent: {}
+[4.314794] (-) TimerEvent: {}
+[4.415059] (-) TimerEvent: {}
+[4.515367] (-) TimerEvent: {}
+[4.615641] (-) TimerEvent: {}
+[4.715932] (-) TimerEvent: {}
+[4.816241] (-) TimerEvent: {}
+[4.916563] (-) TimerEvent: {}
+[5.016837] (-) TimerEvent: {}
+[5.117112] (-) TimerEvent: {}
+[5.217394] (-) TimerEvent: {}
+[5.317623] (-) TimerEvent: {}
+[5.417982] (-) TimerEvent: {}
+[5.518295] (-) TimerEvent: {}
+[5.618637] (-) TimerEvent: {}
+[5.718940] (-) TimerEvent: {}
+[5.819218] (-) TimerEvent: {}
+[5.919458] (-) TimerEvent: {}
+[6.019682] (-) TimerEvent: {}
+[6.119922] (-) TimerEvent: {}
+[6.220212] (-) TimerEvent: {}
+[6.320617] (-) TimerEvent: {}
+[6.421066] (-) TimerEvent: {}
+[6.521450] (-) TimerEvent: {}
+[6.621747] (-) TimerEvent: {}
+[6.722027] (-) TimerEvent: {}
+[6.822308] (-) TimerEvent: {}
+[6.922637] (-) TimerEvent: {}
+[7.022962] (-) TimerEvent: {}
+[7.123362] (-) TimerEvent: {}
+[7.223691] (-) TimerEvent: {}
+[7.323957] (-) TimerEvent: {}
+[7.424239] (-) TimerEvent: {}
+[7.524583] (-) TimerEvent: {}
+[7.624864] (-) TimerEvent: {}
+[7.725206] (-) TimerEvent: {}
+[7.825491] (-) TimerEvent: {}
+[7.925932] (-) TimerEvent: {}
+[8.026344] (-) TimerEvent: {}
+[8.126614] (-) TimerEvent: {}
+[8.226932] (-) TimerEvent: {}
+[8.327277] (-) TimerEvent: {}
+[8.427631] (-) TimerEvent: {}
+[8.527902] (-) TimerEvent: {}
+[8.628305] (-) TimerEvent: {}
+[8.728630] (-) TimerEvent: {}
+[8.828897] (-) TimerEvent: {}
+[8.929149] (-) TimerEvent: {}
+[8.939821] (robot_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/g-amer/ros2_ws/build/robot_nav/build', '--no-deps', 'symlink_data'], 'cwd': '/home/g-amer/ros2_ws/build/robot_nav', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'g-amer', 'LC_TIME': 'ar_TN.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/g-amer/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/snap/code/191/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'STM32CubeMX_PATH': '/home/g-amer/STM32CubeMX', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/g-amer/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/g-amer/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/g-amer/turtlebot3_ws/install/dynamixel_sdk/lib:/home/g-amer/ws_moveit2/install/pilz_industrial_motion_planner_testutils/lib:/home/g-amer/ws_moveit2/install/pilz_industrial_motion_planner/lib:/home/g-amer/ws_moveit2/install/moveit_visual_tools/lib:/home/g-amer/ws_moveit2/install/moveit_task_constructor_visualization/lib:/home/g-amer/ws_moveit2/install/moveit_task_constructor_demo/lib:/home/g-amer/ws_moveit2/install/moveit_task_constructor_capabilities/lib:/home/g-amer/ws_moveit2/install/moveit_task_constructor_core/lib:/home/g-amer/ws_moveit2/install/moveit_ros_control_interface/lib:/home/g-amer/ws_moveit2/install/moveit_simple_controller_manager/lib:/home/g-amer/ws_moveit2/install/moveit_setup_assistant/lib:/home/g-amer/ws_moveit2/install/moveit_setup_srdf_plugins/lib:/home/g-amer/ws_moveit2/install/moveit_setup_core_plugins/lib:/home/g-amer/ws_moveit2/install/moveit_setup_controllers/lib:/home/g-amer/ws_moveit2/install/moveit_setup_app_plugins/lib:/home/g-amer/ws_moveit2/install/moveit_setup_framework/lib:/home/g-amer/ws_moveit2/install/moveit_servo/lib:/home/g-amer/ws_moveit2/install/moveit_ros_visualization/lib:/home/g-amer/ws_moveit2/install/moveit_hybrid_planning/lib:/home/g-amer/ws_moveit2/install/moveit_ros_planning_interface/lib:/home/g-amer/ws_moveit2/install/moveit_ros_benchmarks/lib:/home/g-amer/ws_moveit2/install/moveit_ros_warehouse/lib:/home/g-amer/ws_moveit2/install/moveit_ros_robot_interaction/lib:/home/g-amer/ws_moveit2/install/moveit_ros_perception/lib:/home/g-amer/ws_moveit2/install/moveit_ros_move_group/lib:/home/g-amer/ws_moveit2/install/moveit_planners_ompl/lib:/home/g-amer/ws_moveit2/install/moveit_ros_planning/lib:/home/g-amer/ws_moveit2/install/moveit_ros_occupancy_map_monitor/lib:/home/g-amer/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/g-amer/ws_moveit2/install/moveit_planners_chomp/lib:/home/g-amer/ws_moveit2/install/moveit_kinematics/lib:/home/g-amer/ws_moveit2/install/moveit_chomp_optimizer_adapter/lib:/home/g-amer/ws_moveit2/install/chomp_motion_planner/lib:/home/g-amer/ws_moveit2/install/moveit_core/lib:/home/g-amer/ws_moveit2/install/srdfdom/lib:/home/g-amer/ws_moveit2/install/rviz_marker_tools/lib:/home/g-amer/ws_moveit2/install/rosparam_shortcuts/lib:/home/g-amer/ws_moveit2/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/g-amer', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/g-amer', 'TERM_PROGRAM_VERSION': '1.99.3', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/191/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/g-amer/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/191/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ar_TN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/191/usr/share/code/code', 'MANAGERPID': '1906', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2225', 'BUNDLED_DEBUGPY_PATH': '/home/g-amer/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '579370', 'COLCON_PREFIX_PATH': '/home/g-amer/ros2_ws/install:/home/g-amer/ydlidar_ros2_ws/install:/home/g-amer/turtlebot3_ws/install:/home/g-amer/ws_moveit2/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'g-amer', 'JOURNAL_STREAM': '8:624', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'g-amer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/g-amer/.local/bin:/home/g-amer/ws_moveit2/install/moveit_core/bin:/opt/ros/humble/bin:/home/g-amer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/g-amer/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/g-amer/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/g-amer/.spicetify', 'SESSION_MANAGER': 'local/g-amer:@/tmp/.ICE-unix/2202,unix/g-amer:/tmp/.ICE-unix/2202', 'GTK_EXE_PREFIX': '/snap/code/191/usr', 'INVOCATION_ID': 'bfda073ef20947368025ff2a407f3242', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_TN.UTF-8', 'BAMF_DESKTOP_FILE_HINT': '/var/lib/snapd/desktop/applications/code_code.desktop', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LOCPATH': '/snap/code/191/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/g-amer/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-7d67c7564a764f58.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ar_TN.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/g-amer/snap/code/191/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9b68932134.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/g-amer/snap/code/191/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/g-amer/ros2_ws/install/robot_nav:/home/g-amer/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/g-amer/turtlebot3_ws/install/turtlebot3:/home/g-amer/turtlebot3_ws/install/turtlebot3_teleop:/home/g-amer/turtlebot3_ws/install/turtlebot3_simulations:/home/g-amer/turtlebot3_ws/install/turtlebot3_bringup:/home/g-amer/turtlebot3_ws/install/turtlebot3_node:/home/g-amer/turtlebot3_ws/install/turtlebot3_navigation2:/home/g-amer/turtlebot3_ws/install/turtlebot3_fake_node:/home/g-amer/turtlebot3_ws/install/turtlebot3_example:/home/g-amer/turtlebot3_ws/install/turtlebot3_msgs:/home/g-amer/turtlebot3_ws/install/turtlebot3_gazebo:/home/g-amer/turtlebot3_ws/install/turtlebot3_description:/home/g-amer/turtlebot3_ws/install/turtlebot3_cartographer:/home/g-amer/turtlebot3_ws/install/rosidl_runtime_py:/home/g-amer/turtlebot3_ws/install/dynamixel_sdk_examples:/home/g-amer/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/g-amer/turtlebot3_ws/install/dynamixel_sdk:/home/g-amer/turtlebot3_ws/install/accuracy_evaluator:/home/g-amer/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/g-amer/ws_moveit2/install/moveit_runtime:/home/g-amer/ws_moveit2/install/moveit2_tutorials:/home/g-amer/ws_moveit2/install/moveit:/home/g-amer/ws_moveit2/install/moveit_planners:/home/g-amer/ws_moveit2/install/pilz_industrial_motion_planner:/home/g-amer/ws_moveit2/install/moveit_visual_tools:/home/g-amer/ws_moveit2/install/moveit_task_constructor_visualization:/home/g-amer/ws_moveit2/install/moveit_task_constructor_demo:/home/g-amer/ws_moveit2/install/moveit_task_constructor_capabilities:/home/g-amer/ws_moveit2/install/moveit_task_constructor_core:/home/g-amer/ws_moveit2/install/moveit_ros_control_interface:/home/g-amer/ws_moveit2/install/moveit_plugins:/home/g-amer/ws_moveit2/install/moveit_simple_controller_manager:/home/g-amer/ws_moveit2/install/moveit_setup_assistant:/home/g-amer/ws_moveit2/install/moveit_setup_srdf_plugins:/home/g-amer/ws_moveit2/install/moveit_setup_core_plugins:/home/g-amer/ws_moveit2/install/moveit_setup_controllers:/home/g-amer/ws_moveit2/install/moveit_setup_app_plugins:/home/g-amer/ws_moveit2/install/moveit_setup_framework:/home/g-amer/ws_moveit2/install/moveit_servo:/home/g-amer/ws_moveit2/install/moveit_ros:/home/g-amer/ws_moveit2/install/moveit_ros_visualization:/home/g-amer/ws_moveit2/install/moveit_hybrid_planning:/home/g-amer/ws_moveit2/install/moveit_ros_planning_interface:/home/g-amer/ws_moveit2/install/moveit_ros_benchmarks:/home/g-amer/ws_moveit2/install/moveit_ros_warehouse:/home/g-amer/ws_moveit2/install/moveit_ros_robot_interaction:/home/g-amer/ws_moveit2/install/moveit_ros_perception:/home/g-amer/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/g-amer/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/g-amer/ws_moveit2/install/moveit_ros_move_group:/home/g-amer/ws_moveit2/install/moveit_planners_ompl:/home/g-amer/ws_moveit2/install/moveit_ros_planning:/home/g-amer/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/g-amer/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/g-amer/ws_moveit2/install/moveit_planners_chomp:/home/g-amer/ws_moveit2/install/moveit_kinematics:/home/g-amer/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/g-amer/ws_moveit2/install/chomp_motion_planner:/home/g-amer/ws_moveit2/install/moveit_core:/home/g-amer/ws_moveit2/install/moveit_configs_utils:/home/g-amer/ws_moveit2/install/srdfdom:/home/g-amer/ws_moveit2/install/rviz_marker_tools:/home/g-amer/ws_moveit2/install/rosparam_shortcuts:/home/g-amer/ws_moveit2/install/moveit_task_constructor_msgs:/home/g-amer/ws_moveit2/install/moveit_resources_prbt_support:/home/g-amer/ws_moveit2/install/moveit_resources:/home/g-amer/ws_moveit2/install/moveit_resources_pr2_description:/home/g-amer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/g-amer/ws_moveit2/install/moveit_resources_panda_description:/home/g-amer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/g-amer/ws_moveit2/install/moveit_resources_fanuc_description:/home/g-amer/ws_moveit2/install/moveit_common:/home/g-amer/ws_moveit2/install/launch_param_builder:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_TN.UTF-8', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'CMAKE_MODULE_PATH': '/home/g-amer/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ar_TN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ar_TN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/g-amer/ros2_ws/build/robot_nav', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/g-amer/snap/code/191/.local/share:/home/g-amer/snap/code/191:/snap/code/191/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/g-amer/ros2_ws/build/robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages:/home/g-amer/ros2_ws/build/robot_nav:/home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages:/home/g-amer/turtlebot3_ws/build/turtlebot3_teleop:/home/g-amer/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/g-amer/turtlebot3_ws/build/turtlebot3_example:/home/g-amer/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/g-amer/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/g-amer/turtlebot3_ws/build/rosidl_runtime_py:/home/g-amer/turtlebot3_ws/install/rosidl_runtime_py/lib/python3.10/site-packages:/home/g-amer/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/g-amer/turtlebot3_ws/build/accuracy_evaluator:/home/g-amer/turtlebot3_ws/install/accuracy_evaluator/lib/python3.10/site-packages:/home/g-amer/ws_moveit2/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/g-amer/ws_moveit2/install/moveit_configs_utils/lib/python3.10/site-packages:/home/g-amer/ws_moveit2/install/srdfdom/local/lib/python3.10/dist-packages:/home/g-amer/ws_moveit2/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/g-amer/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_TN.UTF-8', 'LC_PAPER': 'ar_TN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/g-amer/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/home/g-amer/turtlebot3_ws/install/turtlebot3:/home/g-amer/turtlebot3_ws/install/turtlebot3_simulations:/home/g-amer/turtlebot3_ws/install/turtlebot3_bringup:/home/g-amer/turtlebot3_ws/install/turtlebot3_node:/home/g-amer/turtlebot3_ws/install/turtlebot3_navigation2:/home/g-amer/turtlebot3_ws/install/turtlebot3_fake_node:/home/g-amer/turtlebot3_ws/install/turtlebot3_msgs:/home/g-amer/turtlebot3_ws/install/turtlebot3_gazebo:/home/g-amer/turtlebot3_ws/install/turtlebot3_description:/home/g-amer/turtlebot3_ws/install/turtlebot3_cartographer:/home/g-amer/turtlebot3_ws/install/dynamixel_sdk_examples:/home/g-amer/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/g-amer/turtlebot3_ws/install/dynamixel_sdk:/home/g-amer/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/g-amer/ws_moveit2/install/moveit_runtime:/home/g-amer/ws_moveit2/install/moveit2_tutorials:/home/g-amer/ws_moveit2/install/moveit:/home/g-amer/ws_moveit2/install/moveit_planners:/home/g-amer/ws_moveit2/install/pilz_industrial_motion_planner:/home/g-amer/ws_moveit2/install/moveit_visual_tools:/home/g-amer/ws_moveit2/install/moveit_task_constructor_visualization:/home/g-amer/ws_moveit2/install/moveit_task_constructor_demo:/home/g-amer/ws_moveit2/install/moveit_task_constructor_capabilities:/home/g-amer/ws_moveit2/install/moveit_task_constructor_core:/home/g-amer/ws_moveit2/install/moveit_ros_control_interface:/home/g-amer/ws_moveit2/install/moveit_plugins:/home/g-amer/ws_moveit2/install/moveit_simple_controller_manager:/home/g-amer/ws_moveit2/install/moveit_setup_assistant:/home/g-amer/ws_moveit2/install/moveit_setup_srdf_plugins:/home/g-amer/ws_moveit2/install/moveit_setup_core_plugins:/home/g-amer/ws_moveit2/install/moveit_setup_controllers:/home/g-amer/ws_moveit2/install/moveit_setup_app_plugins:/home/g-amer/ws_moveit2/install/moveit_setup_framework:/home/g-amer/ws_moveit2/install/moveit_servo:/home/g-amer/ws_moveit2/install/moveit_ros:/home/g-amer/ws_moveit2/install/moveit_ros_visualization:/home/g-amer/ws_moveit2/install/moveit_hybrid_planning:/home/g-amer/ws_moveit2/install/moveit_ros_planning_interface:/home/g-amer/ws_moveit2/install/moveit_ros_benchmarks:/home/g-amer/ws_moveit2/install/moveit_ros_warehouse:/home/g-amer/ws_moveit2/install/moveit_ros_robot_interaction:/home/g-amer/ws_moveit2/install/moveit_ros_perception:/home/g-amer/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/g-amer/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/g-amer/ws_moveit2/install/moveit_ros_move_group:/home/g-amer/ws_moveit2/install/moveit_planners_ompl:/home/g-amer/ws_moveit2/install/moveit_ros_planning:/home/g-amer/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/g-amer/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/g-amer/ws_moveit2/install/moveit_planners_chomp:/home/g-amer/ws_moveit2/install/moveit_kinematics:/home/g-amer/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/g-amer/ws_moveit2/install/chomp_motion_planner:/home/g-amer/ws_moveit2/install/moveit_core:/home/g-amer/ws_moveit2/install/srdfdom:/home/g-amer/ws_moveit2/install/rviz_marker_tools:/home/g-amer/ws_moveit2/install/rosparam_shortcuts:/home/g-amer/ws_moveit2/install/moveit_task_constructor_msgs:/home/g-amer/ws_moveit2/install/moveit_resources_prbt_support:/home/g-amer/ws_moveit2/install/moveit_resources:/home/g-amer/ws_moveit2/install/moveit_resources_pr2_description:/home/g-amer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/g-amer/ws_moveit2/install/moveit_resources_panda_description:/home/g-amer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/g-amer/ws_moveit2/install/moveit_resources_fanuc_description:/home/g-amer/ws_moveit2/install/moveit_common'}, 'shell': False}
+[9.029252] (-) TimerEvent: {}
+[9.107565] (robot_nav) StderrLine: {'line': b"/home/g-amer/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[9.107768] (robot_nav) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[9.129344] (-) TimerEvent: {}
+[9.229586] (-) TimerEvent: {}
+[9.315346] (robot_nav) StdoutLine: {'line': b'running develop\n'}
+[9.329658] (-) TimerEvent: {}
+[9.429900] (-) TimerEvent: {}
+[9.530203] (-) TimerEvent: {}
+[9.630449] (-) TimerEvent: {}
+[9.650060] (robot_nav) StdoutLine: {'line': b'running egg_info\n'}
+[9.665871] (robot_nav) StdoutLine: {'line': b'writing robot_nav.egg-info/PKG-INFO\n'}
+[9.666282] (robot_nav) StdoutLine: {'line': b'writing dependency_links to robot_nav.egg-info/dependency_links.txt\n'}
+[9.666463] (robot_nav) StdoutLine: {'line': b'writing entry points to robot_nav.egg-info/entry_points.txt\n'}
+[9.666598] (robot_nav) StdoutLine: {'line': b'writing requirements to robot_nav.egg-info/requires.txt\n'}
+[9.666718] (robot_nav) StdoutLine: {'line': b'writing top-level names to robot_nav.egg-info/top_level.txt\n'}
+[9.730593] (-) TimerEvent: {}
+[9.830984] (-) TimerEvent: {}
+[9.915874] (robot_nav) StderrLine: {'line': b"ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any\n"}
+[9.931094] (-) TimerEvent: {}
+[10.031421] (-) TimerEvent: {}
+[10.131760] (-) TimerEvent: {}
+[10.232009] (-) TimerEvent: {}
+[10.332269] (-) TimerEvent: {}
+[10.432532] (-) TimerEvent: {}
+[10.532785] (-) TimerEvent: {}
+[10.633043] (-) TimerEvent: {}
+[10.733301] (-) TimerEvent: {}
+[10.833634] (-) TimerEvent: {}
+[10.866677] (robot_nav) StdoutLine: {'line': b"reading manifest file 'robot_nav.egg-info/SOURCES.txt'\n"}
+[10.885585] (robot_nav) StdoutLine: {'line': b"writing manifest file 'robot_nav.egg-info/SOURCES.txt'\n"}
+[10.917690] (robot_nav) StdoutLine: {'line': b'running build_ext\n'}
+[10.933747] (-) TimerEvent: {}
+[10.943829] (robot_nav) StdoutLine: {'line': b'Creating /home/g-amer/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot-nav.egg-link (link to .)\n'}
+[10.944837] (robot_nav) StdoutLine: {'line': b'Installing search_controller_node script to /home/g-amer/ros2_ws/install/robot_nav/lib/robot_nav\n'}
+[10.945098] (robot_nav) StdoutLine: {'line': b'\n'}
+[10.945193] (robot_nav) StdoutLine: {'line': b'Installed /home/g-amer/ros2_ws/build/robot_nav\n'}
+[10.945270] (robot_nav) StdoutLine: {'line': b'running symlink_data\n'}
+[10.946105] (robot_nav) StdoutLine: {'line': b'symbolically linking /home/g-amer/ros2_ws/build/robot_nav/launch/search_controller.launch.py -> /home/g-amer/ros2_ws/install/robot_nav/share/robot_nav/launch\n'}
+[10.971283] (robot_nav) CommandEnded: {'returncode': 0}
+[11.033863] (-) TimerEvent: {}
+[11.134146] (-) TimerEvent: {}
+[11.170305] (robot_nav) JobEnded: {'identifier': 'robot_nav', 'rc': 0}
+[11.170927] (-) EventReactorShutdown: {}
