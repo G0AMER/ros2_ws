@@ -26,9 +26,9 @@ class SearchController(Node):
         self.history_radius = 0.15
         self.goal_attempt_limit = 20
         self.max_retries = 3
-        self.reach_tolerance = 0.1
+        self.reach_tolerance = 0.2
         self.view_fov = math.radians(60.0)
-        self.view_range = 0.3
+        self.view_range = 0.15
 
         # State
         self.visited = set()
@@ -152,9 +152,11 @@ class SearchController(Node):
             if dist<=self.reach_tolerance and self.navigator.getResult()==TaskResult.SUCCEEDED:
                 self.visited.add(pos)
                 self.get_logger().info(f'Reached {pos}, scanning')
-                spins = int(2*math.pi/self.view_fov)
+                spins = int(2*math.pi/30)
+                self.navigator.spin(math.radians(-90.0))
+                time.sleep(0.5)
                 for _ in range(spins):
-                    self.navigator.spin(self.view_fov)
+                    self.navigator.spin(math.radians(30.0))
                     time.sleep(0.5)
                 self.current_goal=None
             else:
