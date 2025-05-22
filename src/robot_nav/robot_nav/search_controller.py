@@ -30,16 +30,21 @@ class SearchController(Node):
         self.create_subscription(Detection2DArray, '/detections', self.detection_callback, 10)
         self.create_subscription(PoseWithCovarianceStamped, '/amcl_pose', self.pose_callback, 10)
 
+        
+        # Subscription for search state (e.g., stop/resume from Flutter)
+        self.create_subscription(Int32, '/search_state', self.search_state_callback, 10)
+
         # Parameters
         self.search_target_id = None  # set by Flutter
         self.hypo_threshold = 0.7
-        self.history_radius = 0.15
+        self.history_radius = 0.2
         self.goal_attempt_limit = 20
         self.max_retries = 3
         self.reach_tolerance = 0.2
         self.view_fov = math.radians(60.0)
-        self.view_range = 0.15
-
+        self.view_range = 0.4
+        # Pause/resume flag
+        self.paused = False
         # State
         self.visited = set()
         self.failed_goals = set()
@@ -68,6 +73,25 @@ class SearchController(Node):
         self.generated_goals.clear()
         self.retry_counts.clear()
         self.found = False
+
+    def search_state_callback(self, msg: Int32):
+            if msg.data == 0:
+                # Stop command received
+                self.get_logger().warn('Search paused by /search_state')
+                self.paused = True
+                if self.current_goal:
+                    self.navigator.cancelTask()
+                    self.current_goal = None
+                self.visited.clear()
+                self.failed_goals.clear()
+                self.generated_goals.clear()
+                self.retry_counts.clear()
+                self.found = True
+            elif msg.data == 1:
+                # Resume command received
+                self.get_logger().info('Search resumed by /search_state')
+                self.paused = False
+                self.found = False
 
     def pose_callback(self, msg: PoseWithCovarianceStamped):
         # Publish robot pose for Flutter
